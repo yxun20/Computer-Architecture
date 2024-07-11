@@ -1,0 +1,14 @@
+M R1 0x60
+M R2 0x0F  
+/ R1 R2
+* R0 R2
+- R1 R0
+M R3 R0
+C R0 0x1
+B 0xB 0x0
+M R1 R2
+M R2 R3
+J 0x2 0x0
+M R0 R2
+H
+
